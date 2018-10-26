@@ -1,13 +1,10 @@
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
 
 	<title>Instituto CR7</title>
 
-<!------ bootstrap ------->
+<!-- bootstrap -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,10 +12,12 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="css/bootstrap-hover-dropdown.min.js"></script>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<link rel="icon" type="icon" href="imagens\icone.png" />
+	<link rel="icon" href="imagens/icone.png" type="image/x-icon"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<!-------- w3css --------->
+<!-- w3css -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -36,30 +35,67 @@
 	    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">HOME</a>
 	    <a href="sobreronaldo.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">SOBRE O RONALDO</a>
 	    <a href="caridade.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">TRAJETORIA EM CARIDADE</a>
-	    <a href="contatoedoar.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">DOAR/CONTATO</a>
+	    <a href="contatoedoar.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-red">DOAÇÃO</a>
 	  </div>
 
-	  <!------ barra de navegação ------>
+	  <!-- barra de navegação -->
 	  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-large">
 	    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-red">HOME</a>
 	    <a href="sobreronaldo.html" class="w3-bar-item w3-button w3-padding-large w3-hover-red">SOBRE O RONALDO</a>
 	    <a href="caridade.html" class="w3-bar-item w3-button w3-padding-large w3-hover-red">TRAJETORIA EM CARIDADE</a>
-	    <a href="contatoedoar.html" class="w3-bar-item w3-button w3-padding-large w3-hover-red">DOAR/CONTATO</a>
+	    <a href="contatoedoar.html" class="w3-bar-item w3-button w3-padding-large w3-hover-red">DOAÇÃO</a>
+	    
 	    
 	  </div>
 	</div>
 
-	<!----- Headerzinho ----->
+	<!-- Headerzinho -->
 	<br>
 	<br>
-		<img src="imagens\ronaldo2.png" alt="Lights" class="w3-image" style="width: 100%">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- indicadores -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- imangens do slide -->
+    <div class="carousel-inner" >
+      <div class="item active" >
+        <img src="imagens/ronaldo2.png" class="w3-image" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="imagens/juvenaldo.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="imagens/nike.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev" >
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">anterior</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">próximo</span>
+    </a>
+  </div>
+
 	<br>
 	<br>
 	 
 	<div class="w3-container  w3-center w3-padding-32" style="color: black">
 			  <h1>HISTÓRIA DA INSTITUIÇÃO</h1>
 			</div>
-
+	<style >
+		body {font-family: "Lato", sans-serif
+			}
+	</style>
 	<!-- primeira grade -->
 	<div class="w3-container">
 	    <div class="w3-twothird">
@@ -69,28 +105,24 @@ No ano de 2018, o jogador Cristiano Ronaldo, criou o Instituto Cr7, sem fins luc
 			</p>
 	      
 	    </div>
-		<br>
-	    <div class="w3-third w3-center">
-	      <p> <img class=" w3-image w3-round-large"  alt="Lights" src="imagens\page.jpg" width="550" height="400">
+	    <div class=" w3-third w3-center">
+	     	<img class=" w3-image w3-round-large w3-hover-opacity"  alt="Lights" src="imagens/page.jpg"  style="width:600px; height: 400px; margin-left: 10px; margin-top:-20px;">
 	    </div>
 	  </div>
 	
 
-	<!-- Second Grid -->
+	<!-- Seconda grade -->
 	<div class="w3-container w3-light-grey w3-center w3-padding-32" style="color: black">
 			  <h1>OBJETIVOS DA INSTITUIÇÃO</h1>
 	</div>
 	<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
 	 
 	    <div class="w3-third w3-center">
-	      <img class="w3-image w3-left-align w3-round-large"  alt="Lights" src="imagens\ronaldo3.png" width="600" height="550">
+	      <img class="w3-image  w3-round-large w3-hover-opacity"  alt="Lights" src="imagens/ronaldo3.png" style="width:700px; height: 400px; margin-top:-40px;">
 		 
 	    </div>
-
-	    
 	    <div class="w3-twothird">
 	      
-	      <br><br> 
 
 	      <p style="font-size: 18px">O instituto abriga famílias que não possuem lugar para morar, e dentro de um mês os dirigentes conseguem empregos para os adultos da família.
 O instituto possui um espaço para práticas esportivas, tanto para crianças quanto para adultos e idosos, que é um meio de incentivar as crianças a começar uma carreira, e aos adultos e idosos combater o sedentarismo e promover a saúde.
@@ -101,23 +133,57 @@ O instituto também possui uma área dos psicólogos, para ouvir e auxiliar as p
 Além do instituto ser mantido por Ronaldo, o instituto também tem o ituito de arrecadar dinheiro através de doações que podem ser realizadas por qualquer um.</p>
 	    </div>
 	  </div>
-	
-
 		<!-- botaozinho top-->
 		<button onclick="topFunction()" id="top" style="background-color: red;">Voltar ao topo<i></i></button>
 
-	<!-- rodape -->
-	<footer class="w3-container w3-padding-64 w3-center w3-red">  
-	  <div class="w3-xlarge w3-red">
-	    <a  href="https://pt-br.facebook.com/Cristiano/" class="fab fa-facebook" >Facebook</a>
-	    <a  href="https://www.instagram.com/cristiano/?hl=pt-br" class="fa fa-instagram" >Instagram</a>
-	    <a><i>Av. Sá Carneiro 27, Funchal, Portugal</i></a>
+	
+	<!-- area do contato -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTATE-NOS</h2>
+    <p class="w3-opacity w3-center"><i>Instituto CR7</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Av. Sá Carneiro 27, Funchal, Portugal <br>
+        <i class="fa fa-phone" style="width:30px"></i>Telefone : 123456789<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: institutocr7.org.com<br>
+      </div>
+      
+        <form id="mss" action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Nome" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="email" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Menssagem" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">ENVIAR</button>
+        </form>
+      </div>
+    </div>
 
-	 </div>
-	</footer>
+	<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-xlarge w3-container w3-red">
+  <a class="fab fa-facebook w3-hover-opacity" href="https://www.facebook.com/Cristiano/?ref=br_rs">Facebook</a>
+  <a class="fa fa-instagram w3-hover-opacity" href="https://www.instagram.com/cristiano/">Instagram</a>
+  <p class="w3-medium">Feito por: Pedro Aberto / José Fernandes <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"></a></p>
+</footer>
 
 	<!-- scriptzin -->
 	<script>
+
+
+		//footer
+	var form = document.getElementById('mss');
+	form.addEventListener('submit', function(e) {
+	    // alerta o valor do campo
+	    alert("Mensagem enviada com sucesso!");
+
+
+	    // impede o envio do form
+	    e.preventDefault();
+	});
 		    
 	function openNav() {
 	    var x = document.getElementById("navDemo");
@@ -146,9 +212,5 @@ Além do instituto ser mantido por Ronaldo, o instituto também tem o ituito de 
 		   }
 		    
 </script>
-
 </body>
 </html>
-	
-
-
